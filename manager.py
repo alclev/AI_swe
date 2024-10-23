@@ -17,7 +17,7 @@ class Manager:
         self.num_workers = num_workers
         self.git_handler = GitHandler(self.git_url)
         self.task_queue = TaskQueue()
-        self.db = KnowledgeDB(dbname="project_management", user="admin", password="password")
+        self.db = KnowledgeDB(dbname="agent_db", user="alexclevenger", password="password")
         self.worker_threads = []
         self.lock = threading.Lock()  # To ensure thread safety
         logger.info("Manager initialized with Git URL: %s and %d workers", git_url, num_workers)

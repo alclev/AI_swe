@@ -1,0 +1,21 @@
+2024-10-22 19:49:00,589 - __main__ - INFO - Starting manager with Git URL: https://github.com/alclev/AI_swe.git and 8 workers
+2024-10-22 19:49:00,589 - git_handler - INFO - Initialized GitHandler with Git URL: https://github.com/alclev/AI_swe.git
+2024-10-22 19:49:00,589 - task_queue - INFO - Task queue initialized
+2024-10-22 19:49:00,694 - knowledge_db - ERROR - Database connection error: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "project_management" does not exist
+
+2024-10-22 19:49:00,694 - __main__ - ERROR - An error occurred in main execution: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "project_management" does not exist
+
+2024-10-22 20:07:27,236 - __main__ - INFO - Starting manager with Git URL: https://github.com/alclev/AI_swe.git and 8 workers
+2024-10-22 20:07:27,237 - git_handler - INFO - Initialized GitHandler with Git URL: https://github.com/alclev/AI_swe.git
+2024-10-22 20:07:27,237 - task_queue - INFO - Task queue initialized
+2024-10-22 20:07:27,267 - knowledge_db - INFO - Connection pool created successfully.
+2024-10-22 20:07:27,268 - manager - INFO - Manager initialized with Git URL: https://github.com/alclev/AI_swe.git and 8 workers
+2024-10-22 20:07:27,268 - manager - INFO - Manager starting
+2024-10-22 20:07:27,268 - manager - INFO - Cloning repository and extracting project info
+2024-10-22 20:07:27,268 - git_handler - INFO - Cloning repository from https://github.com/alclev/AI_swe.git
+2024-10-22 20:07:27,273 - git.util - DEBUG - Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'No such file or directory')
+2024-10-22 20:07:27,273 - git.cmd - DEBUG - Popen(['git', 'clone', '-v', '--', 'https://github.com/alclev/AI_swe.git', 'repo'], cwd=/Users/alexclevenger/swe, universal_newlines=True, shell=None, istream=None)
+2024-10-22 20:07:27,866 - git.repo.base - DEBUG - Cmd(['git', 'clone', '-v', '--', 'https://github.com/alclev/AI_swe.git', 'repo'])'s unused stdout: 
+2024-10-22 20:07:27,873 - git_handler - INFO - Repository cloned successfully
+2024-10-22 20:07:27,873 - git_handler - ERROR - README.md not found in repository.
+2024-10-22 20:07:27,873 - __main__ - ERROR - An error occurred in main execution: [Errno 2] No such file or directory: 'repo/README.md'
