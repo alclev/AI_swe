@@ -17,6 +17,12 @@
             "mod": "Replace import statements in app.py that incorrectly include file extensions. Change from 'from git_repo.py import GitRepoHandler' to 'from git_repo import GitRepoHandler', 'from tokenizer.py import Tokenizer' to 'from tokenizer import Tokenizer', 'from reviewer.py import Reviewer' to 'from reviewer import Reviewer', 'from manager.py import Manager' to 'from manager import Manager', 'from worker.py import WorkerThread' to 'from worker import WorkerThread', and 'from tester.py import Tester' to 'from tester import Tester'.",
             "completed": false,
             "mod_id": 2
+        },
+        {
+            "level": "syntax",
+            "mod": "The import statements in app.py are incorrect. Python import syntax does not allow file extensions. Change the imports `from git_repo.py import GitRepoHandler`, `from tokenizer.py import Tokenizer`, `from reviewer.py import Reviewer`, `from manager.py import Manager`, `from worker.py import WorkerThread`, and `from tester.py import Tester` to `from git_repo import GitRepoHandler`, `from tokenizer import Tokenizer`, `from reviewer import Reviewer`, `from manager import Manager`, `from worker import WorkerThread`, and `from tester import Tester` respectively.",
+            "completed": false,
+            "mod_id": 3
         }
     ]
 }
