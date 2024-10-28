@@ -1,0 +1,10 @@
+{
+    "mods": [
+        {
+            "level": "syntax",
+            "mod": "In `app.py`, the module imports should use relative import syntax since it appears all files are in the same directory. Change imports in `app.py` from `from git_repo.py import GitRepoHandler` to `from git_repo import GitRepoHandler` and similarly for other imports.",
+            "completed": false,
+            "mod_id": 0
+        }
+    ]
+}
